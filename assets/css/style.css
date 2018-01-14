@@ -1,9 +1,10 @@
 body {
-  font-family: Arial, "Helvetica Neue", Helvetica, sans-serif;
+  font-family: 'Open Sans', sans-serif;
   font-size: 18px;
   line-height: 34px;
   color: #777;
-  background: url("../images/ricepaper_v3.png");
+  background: url("../images/codeIcons50.png");
+  
 }
 
 * {
@@ -24,6 +25,7 @@ h2,
 h3,
 p {
   margin-bottom: 20px;
+  font-family: 'Open Sans', sans-serif;
 }
 
 p:last-child {
@@ -35,7 +37,8 @@ h2,
 h3 {
   font-family: Georgia, Times, "Times New Roman", serif;
   font-weight: 700;
-  color: #4aaaa5;
+  color: #A20303;
+  font-family: 'Open Sans', sans-serif;
 }
 
 h1 {
@@ -65,21 +68,22 @@ h3 {
 
 #logo {
   float: left;
-  width: 250px;
+  width: 500px;
   height: 90px;
-  font-family: Georgia, Times, "Times New Roman", serif;
+  font-family: 'Libre Barcode 39 Extended Text', cursive;
   font-size: 30px;
-  font-weight: 700;
+  font-weight: 0;
   line-height: 90px;
   color: #fff;
   text-align: center;
   text-decoration: none;
-  background: #4aaaa5;
+  background: #A20303;
 }
 
 nav {
   float: right;
   margin-top: 25px;
+  font-family: 'Julius Sans One', sans-serif;
 }
 
 nav a {
@@ -99,14 +103,13 @@ nav a:first-child {
 /* footer */
 
 footer {
-  padding: 30px 0;
+  padding: 30px;
   clear: both;
   font-size: 12px;
   color: #fff;
-  color: #ccc;
   text-align: center;
-  background: #666;
-  border-top: 8px solid #4aaaa5;
+  background: #A20303;
+  border-top: 10px solid #DDD;
 }
 
 /* sidebar */
@@ -118,7 +121,7 @@ footer {
   padding: 30px;
   margin-bottom: 20px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 10px solid #ddd;
 }
 
 h3,
@@ -130,10 +133,11 @@ h3,
 }
 
 .social {
-  width: 62px;
-  height: 62px;
+  width: 52px;
+  height: 52px;
   margin-top: 8px;
-  margin-right: 5px;
+  margin-left: 7px;
+
 }
 
 .social:last-child {
@@ -144,6 +148,8 @@ h3,
 
 #main-container {
   padding-top: 130px;
+  background-color: #fff;
+
 }
 
 .main-section {
@@ -153,7 +159,7 @@ h3,
   padding: 30px;
   margin: 0 0 40px;
   background: #fff;
-  border: 1px solid #ddd;
+  border: 10px solid #ddd;
 }
 
 /* portfolio page */
@@ -307,6 +313,7 @@ input[type=submit] {
       width: 100%;
       padding: 0px;
       text-align: center;
+
 
     }
 
