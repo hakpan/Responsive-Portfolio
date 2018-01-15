@@ -186,13 +186,13 @@ h3,
   position: absolute;
   bottom: 20px;
   width: 100%;
-  padding: 15px;
+  padding: 5px;
   margin-bottom: 0;
   font-weight: 300;
   line-height: 30px;
   color: #fff;
   text-align: center;
-  background: #4aaaa5;
+  background: #A20303;
   border-bottom: 0;
 }
 
@@ -249,7 +249,7 @@ input[type=submit] {
 /* Max-width 980px */
 @media screen and (max-width: 980px) {
     body {
-     background: url("../images/ricepaper_v3.png");
+     background: url("../images/codeIcons50.png");
     }
   
     .container {
@@ -300,7 +300,7 @@ input[type=submit] {
 
   @media screen and (max-width: 768px) {
     body {
-     background: url("../images/ricepaper_v3.png");
+     background: url("../images/codeIcons50.png");
     }
   
     .container {
@@ -359,7 +359,7 @@ input[type=submit] {
 
   @media screen and (max-width: 640px) {
     body {
-     background: url("../images/ricepaper_v3.png");
+     background: url("../images/codeIcons50.png");
     }
 
     nav {
